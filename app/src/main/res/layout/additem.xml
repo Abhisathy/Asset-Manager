@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5sp"
+    android:paddingRight="5sp"
+    android:paddingTop="5sp"
+    android:paddingBottom="5sp"
+    android:orientation="horizontal"
+    android:id="@+id/linearLayout"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/itemcount"
+        android:layout_width="70sp"
+        android:layout_height="match_parent"
+        android:singleLine="false"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:ems="10"
+        android:hint="" >
+
+    </TextView>
+
+    <Spinner
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/spinner2"
+        android:layout_weight="1" >
+        <requestFocus />
+    </Spinner>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:checked="false"
+        android:text="@string/key"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/checkBox2"
+        android:checked="false"
+        android:textSize="12sp"
+        android:text="@string/required"
+        android:layout_weight="0.02"
+        />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/content_remove"
+        android:background="@drawable/transparent_background"
+        android:onClick="onDeleteClicked"/>
+
+
+</LinearLayout>
+

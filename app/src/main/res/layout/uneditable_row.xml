@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:orientation="horizontal"
+    android:background="#e6e6fa"
+    android:id="@+id/linearLayout">
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:singleLine="false"
+        android:ems="10"
+        android:hint=""
+        android:textSize="30sp"
+        android:clickable="false"
+        android:inputType="none">
+        <requestFocus />
+    </TextView>
+
+    <ImageButton
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/down1"
+        android:id="@+id/scan_rslt"
+        android:onClick="dataPrompt"
+        android:contentDescription="@string/button_scan_result_description"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:clickable="false">
+        <RadioButton
+            android:id="@+id/primary"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/primary"/>
+        <RadioButton
+            android:id="@+id/associate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/associate"
+            android:checked="true" />
+    </RadioGroup>
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/required"
+        android:text="@string/required"
+        android:textColor="@color/colorRed"
+        android:textSize="12sp"
+        android:clickable="false"/>
+
+
+</LinearLayout>

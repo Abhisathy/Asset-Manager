@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30sp"
+    android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="20sp">
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/butnormal1"
+            android:onClick="click1"
+            android:textColor="@color/colorWhite"
+            android:text="@string/newFile"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+        </Button>
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20sp">
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/butnormal1"
+            android:onClick="click2"
+            android:textColor="@color/colorWhite"
+            android:text="@string/existingFile"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+        </Button>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20sp">
+        <Button
+            android:id="@+id/Button03"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="click3"
+            android:background="@drawable/butnormal1"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/viewFile"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+        </Button>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20sp">
+        <Button
+            android:id="@+id/Button04"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/butnormal1"
+            android:onClick="click4"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/sendFile"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+        </Button>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20sp">
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/asstyp"
+        android:onClick="click5"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/butnormal1"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="end|bottom"
+        android:paddingBottom="20sp"
+        android:paddingTop="20sp"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:orientation="vertical" >
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/quit"
+        android:id="@+id/button3"
+        android:onClick="click6"
+        android:background="@drawable/butnormal"
+        android:layout_gravity="end|bottom" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abhinav.assetmanager">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Startup">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main1Activity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name=".openfile" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name=".ScannerType" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name=".MainActivity1" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name=".openFile1" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name=".openFile2" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name=".Asset" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name=".NewFile" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name=".ScanFile" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+
+    </application>
+
+</manifest>

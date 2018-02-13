@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="asset.com.assetmanager1.Asset">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/asstyp"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/newType"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/button3"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_marginBottom="33dp" />
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:minWidth="200dp"
+        android:clickable="true"
+        android:layout_marginTop="93dp"
+        android:layout_marginBottom="10sp"
+        android:layout_below="@+id/textView"
+        android:layout_toLeftOf="@+id/button3"
+        android:layout_toStartOf="@+id/button3" />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/add2"
+        android:id="@+id/button3"
+        android:clickable="true"
+        android:onClick="click2"
+        android:layout_marginRight="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_gravity="end"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/assetList"
+        android:id="@+id/textView4"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="5sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+
+    <RelativeLayout
+        android:layout_width="244dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginLeft="78dp"
+        android:layout_marginStart="78dp"
+        android:paddingTop="20sp"
+        android:paddingBottom="20sp"
+        android:id="@+id/relativeLayout">
+
+    <Button
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:id="@+id/cncl"
+        android:onClick="onCancel"
+        android:background="@drawable/butnormal"
+        android:layout_gravity="end"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView5"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4"
+        android:paddingBottom="20sp"
+        android:layout_above="@+id/relativeLayout" >
+        <requestFocus/>
+        </ListView>
+
+
+</RelativeLayout>

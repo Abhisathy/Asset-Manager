@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:orientation="horizontal"
+    android:background="#e6e6fa"
+    android:id="@+id/linearLayout">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:singleLine="false"
+        android:ems="10"
+        android:hint="" >
+        <requestFocus />
+    </EditText>
+
+    <ImageButton
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/down1"
+        android:id="@+id/scan_rslt"
+        android:onClick="dataPrompt"
+        android:contentDescription="@string/button_scan_result_description"
+        />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/required"
+        android:text="@string/required"
+        android:textColor="@color/colorRed"
+        android:checked="true"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/content_remove"
+        android:background="@drawable/transparent_background"
+        android:contentDescription="@string/button_delete_row_description"
+        android:onClick="onDeleteClicked"/>
+
+
+</LinearLayout>
+

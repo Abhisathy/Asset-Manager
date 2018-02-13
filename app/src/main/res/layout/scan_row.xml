@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:orientation="horizontal"
+    android:background="#e6e6fa"
+    android:id="@+id/linearLayout">
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:singleLine="false"
+        android:textSize="20sp"
+        android:ems="8"
+        android:hint="" >
+        <requestFocus />
+    </TextView>
+
+    <TextView
+        android:id="@+id/scan_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:ems="8"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+
+    <ImageButton
+        android:id="@+id/scanbutt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/scan"
+        android:background="@drawable/transparent_background"
+        android:contentDescription="@string/button_delete_row_description"
+        android:onClick="onClick"/>
+
+
+</LinearLayout>

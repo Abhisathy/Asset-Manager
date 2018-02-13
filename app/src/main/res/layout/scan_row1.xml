@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:orientation="horizontal"
+    android:background="#e6e6fa"
+    android:id="@+id/linearLayout">
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:textSize="20sp"
+        android:ems="4"
+        android:hint="" >
+        <requestFocus />
+    </TextView>
+
+    <EditText
+        android:id="@+id/scan_result1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:cursorVisible="true"
+        android:clickable="true"
+        android:ems="8"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>

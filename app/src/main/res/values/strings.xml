@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Asset Manager</string>
+    <string name="newFile">New File</string>
+    <string name="openFile">Open File</string>
+    <string name="button_add_new_text">Add new item</string>
+
+    <string name="button_delete_row_description">Delete</string>
+    <string name="button_scan_result_description">Scanned Data</string>
+    <string name="required">REQUIRED</string>
+    <string name="notRequired">NOT REQUIRED</string>
+    <string name="primary">Primary</string>
+    <string name="associate">Associate</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="scan">Scan</string>
+    <string name="bar">BAR</string>
+    <string name="qr">QR</string>
+    <string name="item">ITEM</string>
+    <string name="noItems">No Items</string>
+    <string name="share">Share</string>
+    <string name="openCsv">Open CSV File</string>
+    <string name="exist">Existing Files:</string>
+    <string name="delete">Delete</string>
+    <string name="scanned">No Output</string>
+    <string name="emptyfile">File is empty</string>
+    <string name="settings">Settings</string>
+    <string name="selectScan">Select the type of scanner to be used:</string>
+    <string name="phCamera">Phone Camera</string>
+    <string name="exScan">External Scanning Device</string>
+    <string name="done">DONE</string>
+    <string name="version">V 1.0</string>
+    <string name="title">Barcode Scanning Application</string>
+    <string name="Continue">Continue</string>
+    <string name="existingFile">Existing File</string>
+    <string name="viewFile">View File</string>
+    <string name="assetType">Asset Type:</string>
+    <string name="sendFile">Send File</string>
+    <string name="quit">Quit</string>
+    <string name="newType">New Type:</string>
+    <string name="assetList">List of Asset Types:</string>
+    <string name="asstyp">Asset Type</string>
+    <string name="filename">File Name:</string>
+    <string name="jobtype">Job Type:</string>
+    <string name="newitem">New Item</string>
+    <string name="key">Key</string>
+    <string name="scn">Scan Barcode</string>
+
+    -<string-array name="categories">
+
+    <item>PRIMARY</item>
+
+    <item>SECONDARY</item>
+
+</string-array>
+</resources>

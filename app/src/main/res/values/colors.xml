@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/holo_blue_dark</color>
+    <color name="sub">#3F51B5</color>
+    <color name="sub1">#ffa500</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#afaded</color>
+    <color name="colorRed">#FF00</color>
+    <color name="colorWhite">#FFFF</color>
+    <color name="back">#e6e6fa</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorAccent1">#ff4444</color>
+    <color name="cancel">#FF4081</color>
+</resources>

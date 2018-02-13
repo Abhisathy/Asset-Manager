@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentView0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="#e6e6fa"
+    android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/backView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/backView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/skipbutt"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/butnormal1"
+        android:gravity="center_vertical|start"
+        android:onClick="skip"
+        android:paddingLeft="5dp"
+        android:text="@string/skip"
+        android:textColor="@color/colorBlack" />
+    <Button
+        android:id="@+id/nextbutt"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/butnormal1"
+        android:gravity="center_vertical|start"
+        android:onClick="next"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/next"
+        android:textColor="@color/colorBlack" />
+    <Button
+        android:id="@+id/cancelbutt"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/butnormal"
+        android:gravity="center_vertical|start"
+        android:onClick="cancel"
+        android:paddingLeft="5dp"
+        android:text="@string/cancel"
+        android:textColor="@color/colorBlack" />
+
+
+</LinearLayout>
+</LinearLayout>
+    </ScrollView>
