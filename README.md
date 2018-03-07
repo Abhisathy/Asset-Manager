@@ -1,7 +1,7 @@
 # Asset-Manager
 
 Android application for asset management and cataloging asset related data into flat files (.csv) using bar/QR code scanner.
-Tested on various android devices using various mediums. Data can be intrinsicly scanned using the smartphone’s camera or using external scanner guns.
+Tested on various android devices using various mediums. Data can be intrinsically scanned using the smartphone’s camera or using external scanner guns.
 
 Features include:
 
